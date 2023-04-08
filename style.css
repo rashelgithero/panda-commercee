@@ -137,6 +137,10 @@ body{
     .navbar-nav li{
         padding: 0 0px;
     }
+    .send{
+        width: 500px;
+        height: auto;
+    }
 
 }
  @media(max-width: 991.9px){
@@ -171,16 +175,20 @@ body{
 
 @media(max-width: 500px){
     .send{
-        width: auto;
+        width: 100%;
+        height: auto;
+    }
+    .send input{
+        width: 100%;
         height: auto;
     }
     .footer{
         width: 95%;
     }
     .search-box input{
-        width: 200px;
+        width: 100px;
     }
     .search-box{
-        width: 300px;
+        width: 200px;
     }
 }

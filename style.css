@@ -173,4 +173,10 @@ body{
     .footer{
         width: 95%;
     }
+    .search-box input{
+        width: 200px;
+    }
+    .search-box{
+        width: 300px;
+    }
 }

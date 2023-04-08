@@ -1,5 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+}
 .container{
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .search-box img{
@@ -7,10 +12,32 @@
     height: 20px;
     
 }
-
+.send{
+    width: 500px;
+    height: fit-content;
+    margin-top:30px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.send input{
+    outline: none;
+    border: none;
+    font-size: 14px;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    
+}
+.send button{
+    border-radius: none;
+    border: none;
+    outline: none;
+}
 .orange-bg{
     background-color: #FEEAE9;
-    border-radius: 20px;
+    border-radius: 15px;
     
 }
 .carousel-item{
@@ -49,11 +76,19 @@
 .card{
     box-shadow: 5px 5px 10px grey;
     border: none;
+    border-radius: 10px;
     
 }
-.card-body,{
+.card-body{
     flex-direction: column;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

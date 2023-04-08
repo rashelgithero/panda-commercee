@@ -13,7 +13,7 @@ body{
     
 }
 .send{
-    width: 400px;
+    width: 500px;
     height: fit-content;
     margin-top:30px ;
     background-color: white;
@@ -161,6 +161,10 @@ body{
 @media(max-width: 767.9px){
     .catagories img{
         max-width: 100%;
+        height: auto;
+    }
+    .send{
+        width: 400px;
         height: auto;
     }
 }

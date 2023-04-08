@@ -1,4 +1,6 @@
-
+.container{
+    padding-bottom: 50px;
+}
 .search-box img{
     width: 20px;
     height: 20px;
@@ -7,8 +9,20 @@
 
 .orange-bg{
     background-color: #FEEAE9;
-    padding: 20px;
+    border-radius: 20px;
     
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #FF136F;
+}
+.btn{
+    background-color: #FF589B;
+}
+.fs-6{
+    padding-bottom: 25px;
 }
 .search-box{
     max-width: 450px;
@@ -45,6 +59,9 @@
     padding: 5px;
     padding-left: 10px;
 }
+.navbar-nav li{
+    padding: 0 20px;
+}
 
 @media(max-width:1200px){
     .search-box input{
@@ -52,6 +69,9 @@
     }
     .search-box{
         width: 400px;
+    }
+    .navbar-nav li{
+        padding: 0 0px;
     }
 
 }

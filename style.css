@@ -175,11 +175,11 @@ body{
 
 @media(max-width: 500px){
     .send{
-        width: 100%;
+        width:fit-content;
         height: auto;
     }
     .send input{
-        width: 100%;
+        width: fit-content;
         height: auto;
     }
     .footer{
